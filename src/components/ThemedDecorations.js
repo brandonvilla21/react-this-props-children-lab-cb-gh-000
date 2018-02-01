@@ -5,11 +5,10 @@ export default class ThemedDecoration extends React.Component {
   render() {
     const childrenProps = React.Children.map(this.props.children, child => {
       return (
-        <div className={this.props.heavem}>{child}</div>
+        <div className={this.props.heaven}>{child}</div>
       )
     })
     return(
-
       {childrenProps}
     )
   }
